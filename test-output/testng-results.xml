@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="14" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-14T15:33:49 EST" name="Suite" finished-at="2024-12-14T15:33:49 EST" duration-ms="209">
+    <groups>
+      <group name="Smoke">
+        <method signature="day1.RIDS()[pri:0, instance:TestP.day1@3c7f66c4]" name="RIDS" class="TestP.day1"/>
+        <method signature="day2.WebCarlogin()[pri:0, instance:TestP.day2@12aba8be]" name="WebCarlogin" class="TestP.day2"/>
+        <method signature="day3.WebHomelogin()[pri:0, instance:TestP.day3@290222c1]" name="WebHomelogin" class="TestP.day3"/>
+        <method signature="day4.Demo()[pri:0, instance:TestP.day4@67f639d3]" name="Demo" class="TestP.day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-12-14T15:33:49 EST" name="SmokeSuite" finished-at="2024-12-14T15:33:49 EST" duration-ms="209">
+      <class name="TestP.day4">
+        <test-method signature="Demo()[pri:0, instance:TestP.day4@67f639d3]" started-at="2024-12-14T15:33:49 EST" name="Demo" finished-at="2024-12-14T15:33:49 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- TestP.day4 -->
+      <class name="TestP.day1">
+        <test-method signature="RIDS()[pri:0, instance:TestP.day1@3c7f66c4]" started-at="2024-12-14T15:33:49 EST" name="RIDS" finished-at="2024-12-14T15:33:49 EST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RIDS -->
+      </class> <!-- TestP.day1 -->
+      <class name="TestP.day3">
+        <test-method signature="WebHomelogin()[pri:0, instance:TestP.day3@290222c1]" started-at="2024-12-14T15:33:49 EST" name="WebHomelogin" finished-at="2024-12-14T15:33:49 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebHomelogin -->
+      </class> <!-- TestP.day3 -->
+      <class name="TestP.day2">
+        <test-method signature="WebCarlogin()[pri:0, instance:TestP.day2@12aba8be]" started-at="2024-12-14T15:33:49 EST" name="WebCarlogin" finished-at="2024-12-14T15:33:49 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebCarlogin -->
+      </class> <!-- TestP.day2 -->
+    </test> <!-- SmokeSuite -->
+  </suite> <!-- Suite -->
+</testng-results>
